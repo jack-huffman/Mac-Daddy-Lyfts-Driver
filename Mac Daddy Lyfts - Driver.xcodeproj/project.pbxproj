@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE34119E209252FD00CF812B /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE34119D209252FD00CF812B /* Updater.swift */; };
+		FE7F819C207BC077000ABEBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F819B207BC077000ABEBD /* LoginViewController.swift */; };
+		FEA57E4B208A4BCA0017535A /* RideInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA57E4A208A4BCA0017535A /* RideInfoViewController.swift */; };
+		FEAB79C82062B1D70038280B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB79C72062B1D70038280B /* AppDelegate.swift */; };
+		FEAB79CD2062B1D70038280B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAB79CB2062B1D70038280B /* Main.storyboard */; };
+		FEAB79CF2062B1D70038280B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAB79CE2062B1D70038280B /* Assets.xcassets */; };
+		FEAB79D22062B1D70038280B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAB79D02062B1D70038280B /* LaunchScreen.storyboard */; };
+		FEAB79DD2062B1D70038280B /* Mac_Daddy_Lyfts___DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB79DC2062B1D70038280B /* Mac_Daddy_Lyfts___DriverTests.swift */; };
+		FEAB79E82062B1D70038280B /* Mac_Daddy_Lyfts___DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB79E72062B1D70038280B /* Mac_Daddy_Lyfts___DriverUITests.swift */; };
+		FEB32C362097EF6800B9ED5A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB32C342097EF6800B9ED5A /* DataModel.xcdatamodeld */; };
+		FEB32C7A2098169E00B9ED5A /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB32C782098169E00B9ED5A /* User+CoreDataClass.swift */; };
+		FEB32C7B2098169E00B9ED5A /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB32C792098169E00B9ED5A /* User+CoreDataProperties.swift */; };
+		FEBCDE74208912370001B154 /* RiderLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBCDE73208912370001B154 /* RiderLoader.swift */; };
+		FEC1FB7E2085800E00BE73FE /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1FB7D2085800E00BE73FE /* Rider.swift */; };
+		FEC1FB822085875B00BE73FE /* RiderPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1FB812085875B00BE73FE /* RiderPointAnnotation.swift */; };
+		FECFBEB620728B82002359E1 /* CartNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECFBEB520728B82002359E1 /* CartNumberViewController.swift */; };
+		FECFBEB820728CA2002359E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECFBEB720728CA2002359E1 /* MapViewController.swift */; };
+		FEF79CA02093B72B00BAE381 /* DriverLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF79C9F2093B72B00BAE381 /* DriverLoader.swift */; };
+		FEF79CA22093B75100BAE381 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF79CA12093B75100BAE381 /* Driver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEAB79D92062B1D70038280B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEAB79BC2062B1D70038280B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEAB79C32062B1D70038280B;
+			remoteInfo = "Mac Daddy Lyfts - Driver";
+		};
+		FEAB79E42062B1D70038280B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEAB79BC2062B1D70038280B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEAB79C32062B1D70038280B;
+			remoteInfo = "Mac Daddy Lyfts - Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE34119D209252FD00CF812B /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		FE7F819B207BC077000ABEBD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FEA57E4A208A4BCA0017535A /* RideInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInfoViewController.swift; sourceTree = "<group>"; };
+		FEAB79C42062B1D70038280B /* Mac Daddy Lyfts - Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Daddy Lyfts - Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB79C72062B1D70038280B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEAB79CC2062B1D70038280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEAB79CE2062B1D70038280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEAB79D12062B1D70038280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEAB79D32062B1D70038280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAB79D82062B1D70038280B /* Mac Daddy Lyfts - DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Daddy Lyfts - DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB79DC2062B1D70038280B /* Mac_Daddy_Lyfts___DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mac_Daddy_Lyfts___DriverTests.swift"; sourceTree = "<group>"; };
+		FEAB79DE2062B1D70038280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAB79E32062B1D70038280B /* Mac Daddy Lyfts - DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Daddy Lyfts - DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB79E72062B1D70038280B /* Mac_Daddy_Lyfts___DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mac_Daddy_Lyfts___DriverUITests.swift"; sourceTree = "<group>"; };
+		FEAB79E92062B1D70038280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB32C352097EF6800B9ED5A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		FEB32C782098169E00B9ED5A /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FEB32C792098169E00B9ED5A /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FEBCDE73208912370001B154 /* RiderLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderLoader.swift; sourceTree = "<group>"; };
+		FEC1FB7D2085800E00BE73FE /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Rider.swift; path = "Mac Daddy Lyfts - Driver/Rider.swift"; sourceTree = "<group>"; };
+		FEC1FB812085875B00BE73FE /* RiderPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RiderPointAnnotation.swift; path = "Mac Daddy Lyfts - Driver/RiderPointAnnotation.swift"; sourceTree = "<group>"; };
+		FECFBEB520728B82002359E1 /* CartNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartNumberViewController.swift; sourceTree = "<group>"; };
+		FECFBEB720728CA2002359E1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FEF79C9F2093B72B00BAE381 /* DriverLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoader.swift; sourceTree = "<group>"; };
+		FEF79CA12093B75100BAE381 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEAB79C12062B1D70038280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79D52062B1D70038280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79E02062B1D70038280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAB79BB2062B1D70038280B = {
+			isa = PBXGroup;
+			children = (
+				FEC1FB812085875B00BE73FE /* RiderPointAnnotation.swift */,
+				FEC1FB7D2085800E00BE73FE /* Rider.swift */,
+				FEAB79C62062B1D70038280B /* Mac Daddy Lyfts - Driver */,
+				FEAB79DB2062B1D70038280B /* Mac Daddy Lyfts - DriverTests */,
+				FEAB79E62062B1D70038280B /* Mac Daddy Lyfts - DriverUITests */,
+				FEAB79C52062B1D70038280B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEAB79C52062B1D70038280B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB79C42062B1D70038280B /* Mac Daddy Lyfts - Driver.app */,
+				FEAB79D82062B1D70038280B /* Mac Daddy Lyfts - DriverTests.xctest */,
+				FEAB79E32062B1D70038280B /* Mac Daddy Lyfts - DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAB79C62062B1D70038280B /* Mac Daddy Lyfts - Driver */ = {
+			isa = PBXGroup;
+			children = (
+				FEB32C782098169E00B9ED5A /* User+CoreDataClass.swift */,
+				FEB32C792098169E00B9ED5A /* User+CoreDataProperties.swift */,
+				FEAB79C72062B1D70038280B /* AppDelegate.swift */,
+				FEAB79CB2062B1D70038280B /* Main.storyboard */,
+				FEA57E4A208A4BCA0017535A /* RideInfoViewController.swift */,
+				FE7F819B207BC077000ABEBD /* LoginViewController.swift */,
+				FECFBEB720728CA2002359E1 /* MapViewController.swift */,
+				FEBCDE73208912370001B154 /* RiderLoader.swift */,
+				FEF79C9F2093B72B00BAE381 /* DriverLoader.swift */,
+				FEF79CA12093B75100BAE381 /* Driver.swift */,
+				FE34119D209252FD00CF812B /* Updater.swift */,
+				FECFBEB520728B82002359E1 /* CartNumberViewController.swift */,
+				FEB32C342097EF6800B9ED5A /* DataModel.xcdatamodeld */,
+				FEAB79CE2062B1D70038280B /* Assets.xcassets */,
+				FEAB79D02062B1D70038280B /* LaunchScreen.storyboard */,
+				FEAB79D32062B1D70038280B /* Info.plist */,
+			);
+			path = "Mac Daddy Lyfts - Driver";
+			sourceTree = "<group>";
+		};
+		FEAB79DB2062B1D70038280B /* Mac Daddy Lyfts - DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB79DC2062B1D70038280B /* Mac_Daddy_Lyfts___DriverTests.swift */,
+				FEAB79DE2062B1D70038280B /* Info.plist */,
+			);
+			path = "Mac Daddy Lyfts - DriverTests";
+			sourceTree = "<group>";
+		};
+		FEAB79E62062B1D70038280B /* Mac Daddy Lyfts - DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB79E72062B1D70038280B /* Mac_Daddy_Lyfts___DriverUITests.swift */,
+				FEAB79E92062B1D70038280B /* Info.plist */,
+			);
+			path = "Mac Daddy Lyfts - DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEAB79C32062B1D70038280B /* Mac Daddy Lyfts - Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB79EC2062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - Driver" */;
+			buildPhases = (
+				FEAB79C02062B1D70038280B /* Sources */,
+				FEAB79C12062B1D70038280B /* Frameworks */,
+				FEAB79C22062B1D70038280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Daddy Lyfts - Driver";
+			productName = "Mac Daddy Lyfts - Driver";
+			productReference = FEAB79C42062B1D70038280B /* Mac Daddy Lyfts - Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEAB79D72062B1D70038280B /* Mac Daddy Lyfts - DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB79EF2062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - DriverTests" */;
+			buildPhases = (
+				FEAB79D42062B1D70038280B /* Sources */,
+				FEAB79D52062B1D70038280B /* Frameworks */,
+				FEAB79D62062B1D70038280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAB79DA2062B1D70038280B /* PBXTargetDependency */,
+			);
+			name = "Mac Daddy Lyfts - DriverTests";
+			productName = "Mac Daddy Lyfts - DriverTests";
+			productReference = FEAB79D82062B1D70038280B /* Mac Daddy Lyfts - DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEAB79E22062B1D70038280B /* Mac Daddy Lyfts - DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB79F22062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - DriverUITests" */;
+			buildPhases = (
+				FEAB79DF2062B1D70038280B /* Sources */,
+				FEAB79E02062B1D70038280B /* Frameworks */,
+				FEAB79E12062B1D70038280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAB79E52062B1D70038280B /* PBXTargetDependency */,
+			);
+			name = "Mac Daddy Lyfts - DriverUITests";
+			productName = "Mac Daddy Lyfts - DriverUITests";
+			productReference = FEAB79E32062B1D70038280B /* Mac Daddy Lyfts - DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEAB79BC2062B1D70038280B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jackson Huffman";
+				TargetAttributes = {
+					FEAB79C32062B1D70038280B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FEAB79D72062B1D70038280B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEAB79C32062B1D70038280B;
+					};
+					FEAB79E22062B1D70038280B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEAB79C32062B1D70038280B;
+					};
+				};
+			};
+			buildConfigurationList = FEAB79BF2062B1D70038280B /* Build configuration list for PBXProject "Mac Daddy Lyfts - Driver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEAB79BB2062B1D70038280B;
+			productRefGroup = FEAB79C52062B1D70038280B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAB79C32062B1D70038280B /* Mac Daddy Lyfts - Driver */,
+				FEAB79D72062B1D70038280B /* Mac Daddy Lyfts - DriverTests */,
+				FEAB79E22062B1D70038280B /* Mac Daddy Lyfts - DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEAB79C22062B1D70038280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB79D22062B1D70038280B /* LaunchScreen.storyboard in Resources */,
+				FEAB79CF2062B1D70038280B /* Assets.xcassets in Resources */,
+				FEAB79CD2062B1D70038280B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79D62062B1D70038280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79E12062B1D70038280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEAB79C02062B1D70038280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF79CA22093B75100BAE381 /* Driver.swift in Sources */,
+				FEBCDE74208912370001B154 /* RiderLoader.swift in Sources */,
+				FECFBEB620728B82002359E1 /* CartNumberViewController.swift in Sources */,
+				FEB32C7A2098169E00B9ED5A /* User+CoreDataClass.swift in Sources */,
+				FEAB79C82062B1D70038280B /* AppDelegate.swift in Sources */,
+				FEC1FB822085875B00BE73FE /* RiderPointAnnotation.swift in Sources */,
+				FEC1FB7E2085800E00BE73FE /* Rider.swift in Sources */,
+				FE34119E209252FD00CF812B /* Updater.swift in Sources */,
+				FEF79CA02093B72B00BAE381 /* DriverLoader.swift in Sources */,
+				FE7F819C207BC077000ABEBD /* LoginViewController.swift in Sources */,
+				FEB32C7B2098169E00B9ED5A /* User+CoreDataProperties.swift in Sources */,
+				FEB32C362097EF6800B9ED5A /* DataModel.xcdatamodeld in Sources */,
+				FEA57E4B208A4BCA0017535A /* RideInfoViewController.swift in Sources */,
+				FECFBEB820728CA2002359E1 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79D42062B1D70038280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB79DD2062B1D70038280B /* Mac_Daddy_Lyfts___DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB79DF2062B1D70038280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB79E82062B1D70038280B /* Mac_Daddy_Lyfts___DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEAB79DA2062B1D70038280B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEAB79C32062B1D70038280B /* Mac Daddy Lyfts - Driver */;
+			targetProxy = FEAB79D92062B1D70038280B /* PBXContainerItemProxy */;
+		};
+		FEAB79E52062B1D70038280B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEAB79C32062B1D70038280B /* Mac Daddy Lyfts - Driver */;
+			targetProxy = FEAB79E42062B1D70038280B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEAB79CB2062B1D70038280B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB79CC2062B1D70038280B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEAB79D02062B1D70038280B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB79D12062B1D70038280B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEAB79EA2062B1D70038280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEAB79EB2062B1D70038280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEAB79ED2062B1D70038280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QUWQVD2KQ;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEAB79EE2062B1D70038280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QUWQVD2KQ;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEAB79F02062B1D70038280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac Daddy Lyfts - Driver.app/Mac Daddy Lyfts - Driver";
+			};
+			name = Debug;
+		};
+		FEAB79F12062B1D70038280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac Daddy Lyfts - Driver.app/Mac Daddy Lyfts - Driver";
+			};
+			name = Release;
+		};
+		FEAB79F32062B1D70038280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac Daddy Lyfts - Driver";
+			};
+			name = Debug;
+		};
+		FEAB79F42062B1D70038280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mac Daddy Lyfts - DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.missouri.Mac-Daddy-Lyfts---DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac Daddy Lyfts - Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEAB79BF2062B1D70038280B /* Build configuration list for PBXProject "Mac Daddy Lyfts - Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB79EA2062B1D70038280B /* Debug */,
+				FEAB79EB2062B1D70038280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB79EC2062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB79ED2062B1D70038280B /* Debug */,
+				FEAB79EE2062B1D70038280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB79EF2062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB79F02062B1D70038280B /* Debug */,
+				FEAB79F12062B1D70038280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB79F22062B1D70038280B /* Build configuration list for PBXNativeTarget "Mac Daddy Lyfts - DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB79F32062B1D70038280B /* Debug */,
+				FEAB79F42062B1D70038280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEB32C342097EF6800B9ED5A /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEB32C352097EF6800B9ED5A /* DataModel.xcdatamodel */,
+			);
+			currentVersion = FEB32C352097EF6800B9ED5A /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEAB79BC2062B1D70038280B /* Project object */;
+}
